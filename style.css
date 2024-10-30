@@ -1,0 +1,93 @@
+/*colors and fonts */
+body {
+  background-color: #fcf6f7;
+  color: #fa7474;
+  font-family: "Markazi Text", serif;
+  font-size: 25px;
+  font-weight: 10;
+  width: 700px;
+  margin: 40px auto;
+}
+h1, h2, h3 {
+  font-family: "Roboto Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+h1 {
+  color: #ff0054;
+  font-family:"Markazi Text", serif;
+  font-size: 32px;
+  font-weight: 300;
+}
+
+h2{
+  color:#FF0054;
+  font-size: 44px;
+  font-weight:400;
+}
+a {
+  font-family: "Roboto Flex", sans-serif;
+  text-decoration:;
+  color: #FF85AD;
+  font-weight: 700;
+  font-size:16px;
+}
+
+a:hover {
+  color: #7A0045;
+}
+
+/*custom disgn with class */
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 760px){
+ .container {
+   width: 600px;
+  }
+}
+
+@media (max-width: 540px){
+ .container {
+   width: 300px;
+ }
+}
+.card-white {
+ background-color: #f6dce0;
+ padding: 60px;
+ margin: 50px;
+ box-shadow:  0px 10px 30px rgba(0, 0, 0, 0.1);
+ border-radius: 25px;
+ text-align: center;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.btn-blue {
+  background-color: #ff0054;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 25px;
+}
+.btn-blue:hover {
+  background-color: #fa7474;
+  color: white;
+}
+.list-inline {
+ list-style: none;
+ padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+#introduction p {
+ margin-bottom: 50px;
+}
+
+
+
